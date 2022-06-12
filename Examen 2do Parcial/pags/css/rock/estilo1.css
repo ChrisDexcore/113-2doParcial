@@ -1,0 +1,51 @@
+*
+{
+	margin:3px;
+	padding:3px;
+}
+h1
+{
+	font-family:impact;
+	font-size:60px;
+	color:red;
+}
+img
+{
+	height:40%;
+	width:40%;
+}
+h2
+{
+	font-family:impact;
+	font-size:45px;
+	position:relative;
+	color:white;
+}
+
+#part1
+	section,p
+	{
+		color:white;
+		font-size:25px;
+	}
+	table,tr,td,img
+	{
+		font-size:20px;
+		text-align:center;
+		border-spacing:10px;
+	}
+footer
+{
+	color:white;
+	
+}
+@media screen and (max-width:500px)
+{
+	table,tr,td,img
+	{
+		height:100%;
+		width:100%;
+		font-size:20px;
+	}
+}
+		
