@@ -1,0 +1,66 @@
+*
+{
+	margin:3px;
+	padding:3px;
+}
+h1
+{
+	font-family:Bullet In Your Head;
+	font-size:60px;
+	background:linear-gradient(20deg ,white,black, black,red,red);
+	color:red;
+}
+img
+{
+	height:40%;
+	width:40%;
+}
+h2
+{
+	font-family:Bullet In Your Head;
+	background:linear-gradient(20deg,black,red);
+	font-size:45px;
+	position:relative;
+	color:red;
+}
+p
+{
+	background:linear-gradient(20deg ,white,black, black,red,red);
+}
+h3
+{
+	color:red;
+	font-size:30px;
+	font-family:Bullet In Your Head;
+	background:linear-gradient(20deg ,white,black, black,red,red);
+}
+#part1
+	section,p
+	{
+		color:white;
+		font-size:25px;
+	}
+	table,tr,td,img
+	{
+		font-size:20px;
+		text-align:center;
+		border-spacing:10px;
+		background:linear-gradient(20deg ,white,black, black,red,red);
+		
+	}
+
+footer
+{
+	color:red;
+	background:linear-gradient(20deg ,white,black, black,red,red);
+	
+}
+@media screen and (max-width:500px)
+{
+	table,tr,td,img
+	{
+		height:100%;
+		width:100%;
+		font-size:20px;
+	}
+}
